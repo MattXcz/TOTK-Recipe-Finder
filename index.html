@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TOTK Recipe Finder</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="kicker">Zelda Tears of the Kingdom</p>
+        <h1>TOTK Recipe Finder</h1>
+      </div>
+      <div class="top-actions">
+        <button id="clearInventory" class="ghost-button" type="button">Clear inventory</button>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <section class="inventory-panel" aria-labelledby="inventoryTitle">
+        <div class="panel-header">
+          <div>
+            <h2 id="inventoryTitle">Inventory</h2>
+            <p>Mark the food and cooking materials you have with you.</p>
+          </div>
+          <div class="inventory-count">
+            <strong id="ownedCount">0</strong>
+            <span>selected</span>
+          </div>
+        </div>
+
+        <div class="filters">
+          <label class="search-box">
+            <span>Search</span>
+            <input id="ingredientSearch" type="search" placeholder="apple, fish, mushroom...">
+          </label>
+          <div class="segmented" role="tablist" aria-label="Ingredient categories">
+            <button class="segment active" type="button" data-category="all">All</button>
+            <button class="segment" type="button" data-category="food">Food</button>
+            <button class="segment" type="button" data-category="cooking">Cooking</button>
+            <button class="segment" type="button" data-category="effect">Effects</button>
+          </div>
+        </div>
+
+        <div id="ingredientGrid" class="ingredient-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="results-panel" aria-labelledby="recipesTitle">
+        <div class="panel-header results-header">
+          <div>
+            <h2 id="recipesTitle">Available recipes</h2>
+            <p id="resultSummary">Choose ingredients and I will surface the best meals.</p>
+          </div>
+          <label class="sort-control">
+            <span>Sort</span>
+            <select id="sortMode">
+              <option value="best">Best result</option>
+              <option value="available">Cookable first</option>
+              <option value="missing">Fewest missing</option>
+              <option value="hearts">Most hearts</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="stats-strip">
+          <div>
+            <strong id="availableCount">0</strong>
+            <span>cookable</span>
+          </div>
+          <div>
+            <strong id="almostCount">0</strong>
+            <span>almost ready</span>
+          </div>
+          <div>
+            <strong id="topEffect">-</strong>
+            <span>top effect</span>
+          </div>
+        </div>
+
+        <div id="recipeList" class="recipe-list" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <template id="ingredientTemplate">
+      <button class="ingredient" type="button">
+        <span class="ingredient-art" aria-hidden="true"></span>
+        <span class="ingredient-text">
+          <strong></strong>
+          <small></small>
+        </span>
+        <span class="checkmark" aria-hidden="true">✓</span>
+      </button>
+    </template>
+
+    <template id="recipeTemplate">
+      <article class="recipe-card">
+        <div class="recipe-main">
+          <div class="recipe-icon" aria-hidden="true"></div>
+          <div>
+            <h3></h3>
+            <p class="recipe-description"></p>
+          </div>
+        </div>
+        <div class="recipe-meta"></div>
+        <div class="recipe-ingredients"></div>
+        <div class="missing-line"></div>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
