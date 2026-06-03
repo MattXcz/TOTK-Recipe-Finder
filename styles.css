@@ -1,15 +1,39 @@
 :root {
   --bg: #f4f1e8;
   --panel: #fffaf0;
+  --panel-solid: #fffdf7;
   --ink: #1e2a26;
   --muted: #667169;
   --line: #d8d0bd;
+  --field: #ffffff;
+  --tile: #fffdf7;
+  --texture-opacity-a: 0.88;
+  --texture-opacity-b: 0.94;
   --green: #2f7d5f;
   --green-dark: #1f5d47;
   --gold: #b7832f;
   --red: #b94d45;
   --blue: #35749a;
   --shadow: 0 18px 45px rgba(42, 38, 27, 0.14);
+}
+
+[data-theme="dark"] {
+  --bg: #121815;
+  --panel: #1c2722;
+  --panel-solid: #202c27;
+  --ink: #eef5e9;
+  --muted: #a9b8ad;
+  --line: #39473f;
+  --field: #111a16;
+  --tile: #18231e;
+  --texture-opacity-a: 0.93;
+  --texture-opacity-b: 0.96;
+  --green: #57a87d;
+  --green-dark: #8bd0a5;
+  --gold: #d0a24f;
+  --red: #cf6d62;
+  --blue: #6ba5c3;
+  --shadow: 0 18px 45px rgba(0, 0, 0, 0.32);
 }
 
 * {
@@ -22,8 +46,17 @@ body {
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: var(--ink);
   background:
-    linear-gradient(rgba(244, 241, 232, 0.88), rgba(244, 241, 232, 0.94)),
+    linear-gradient(rgba(244, 241, 232, var(--texture-opacity-a)), rgba(244, 241, 232, var(--texture-opacity-b))),
     url("data:image/svg+xml,%3Csvg width='160' height='160' viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='160' height='160' fill='%23eee7d5'/%3E%3Cpath d='M0 75c28-15 49-16 74-2 21 12 40 12 66-3 8-5 14-7 20-8v18c-26 5-45 23-75 18-22-4-37-18-61-9-10 4-18 9-24 14V75z' fill='%23d9e3cc'/%3E%3Cpath d='M0 128c22-16 43-20 68-12 35 12 59 4 92-20v32c-30 16-58 21-88 11-31-10-51-1-72 17v-28z' fill='%23c7d5bd'/%3E%3Ccircle cx='124' cy='35' r='18' fill='%23d6b16a'/%3E%3Cpath d='M20 34h42M28 45h28M96 83h34M102 94h24' stroke='%23b7aa8c' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-size: cover, 320px 320px;
+  background-color: var(--bg);
+}
+
+[data-theme="dark"] body {
+  background:
+    linear-gradient(rgba(18, 24, 21, var(--texture-opacity-a)), rgba(18, 24, 21, var(--texture-opacity-b))),
+    url("data:image/svg+xml,%3Csvg width='160' height='160' viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='160' height='160' fill='%23202a25'/%3E%3Cpath d='M0 75c28-15 49-16 74-2 21 12 40 12 66-3 8-5 14-7 20-8v18c-26 5-45 23-75 18-22-4-37-18-61-9-10 4-18 9-24 14V75z' fill='%232b4034'/%3E%3Cpath d='M0 128c22-16 43-20 68-12 35 12 59 4 92-20v32c-30 16-58 21-88 11-31-10-51-1-72 17v-28z' fill='%2326372e'/%3E%3Ccircle cx='124' cy='35' r='18' fill='%235b4b2a'/%3E%3Cpath d='M20 34h42M28 45h28M96 83h34M102 94h24' stroke='%2347574e' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-color: var(--bg);
   background-size: cover, 320px 320px;
 }
 
@@ -86,7 +119,12 @@ h3 {
   border-radius: 8px;
   padding: 0 14px;
   color: var(--ink);
-  background: rgba(255, 250, 240, 0.72);
+  background: color-mix(in srgb, var(--panel-solid) 78%, transparent);
+}
+
+.top-actions {
+  display: flex;
+  gap: 10px;
 }
 
 .app-shell {
@@ -101,7 +139,7 @@ h3 {
   min-width: 0;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: rgba(255, 250, 240, 0.94);
+  background: color-mix(in srgb, var(--panel) 94%, transparent);
   box-shadow: var(--shadow);
 }
 
@@ -162,7 +200,7 @@ h3 {
   border-radius: 8px;
   padding: 0 12px;
   color: var(--ink);
-  background: white;
+  background: var(--field);
 }
 
 .segmented {
@@ -176,7 +214,7 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 8px;
   color: var(--muted);
-  background: #fffdf7;
+  background: var(--tile);
   font-weight: 700;
 }
 
@@ -208,12 +246,12 @@ h3 {
   padding: 8px;
   text-align: left;
   color: var(--ink);
-  background: #fffdf7;
+  background: var(--tile);
 }
 
 .ingredient.selected {
   border-color: var(--green);
-  background: #eaf5ed;
+  background: color-mix(in srgb, var(--green) 15%, var(--tile));
 }
 
 .ingredient-art,
@@ -241,7 +279,7 @@ h3 {
   height: 100%;
   object-fit: contain;
   padding: 0;
-  transform: scale(1.45);
+  transform: scale(1.05);
 }
 
 .recipe-icon img {
@@ -300,7 +338,7 @@ h3 {
 
 .stats-strip div {
   padding: 14px 18px;
-  background: #fffdf7;
+  background: var(--tile);
 }
 
 .recipe-list {
@@ -316,7 +354,7 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 14px;
-  background: #fffdf7;
+  background: var(--tile);
 }
 
 .recipe-card.available {
@@ -352,7 +390,7 @@ h3 {
   border-radius: 999px;
   padding: 5px 9px;
   color: var(--ink);
-  background: #eee6d2;
+  background: color-mix(in srgb, var(--muted) 20%, var(--tile));
   font-size: 0.78rem;
   font-weight: 800;
 }
@@ -388,7 +426,7 @@ h3 {
   padding: 26px;
   color: var(--muted);
   text-align: center;
-  background: rgba(255, 255, 255, 0.42);
+  background: color-mix(in srgb, var(--tile) 42%, transparent);
 }
 
 @media (max-width: 900px) {

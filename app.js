@@ -6,7 +6,7 @@ const ingredients = [
     "tag": "material",
     "icon": "A",
     "color": "#72808a",
-    "image": "assets/ingredient-icons/acorn.svg"
+    "image": "assets/ingredient-icons/acorn.webp"
   },
   {
     "id": "ancient-arowana",
@@ -15,16 +15,7 @@ const ingredients = [
     "tag": "fish",
     "icon": "AA",
     "color": "#3f7894",
-    "image": "assets/ingredient-icons/ancient-arowana.svg"
-  },
-  {
-    "id": "any-porgy",
-    "name": "Any Porgy",
-    "type": "food",
-    "tag": "fish",
-    "icon": "AP",
-    "color": "#3f7894",
-    "image": "assets/ingredient-icons/any-porgy.svg"
+    "image": "assets/ingredient-icons/ancient-arowana.webp"
   },
   {
     "id": "apple",
@@ -33,7 +24,7 @@ const ingredients = [
     "tag": "fruit",
     "icon": "A",
     "color": "#b94d45",
-    "image": "assets/ingredient-icons/apple.svg"
+    "image": "assets/ingredient-icons/apple.webp"
   },
   {
     "id": "armoranth",
@@ -42,7 +33,7 @@ const ingredients = [
     "tag": "defense",
     "icon": "A",
     "color": "#617582",
-    "image": "assets/ingredient-icons/armoranth.svg"
+    "image": "assets/ingredient-icons/armoranth.webp"
   },
   {
     "id": "armored-carp",
@@ -51,7 +42,7 @@ const ingredients = [
     "tag": "defense",
     "icon": "AC",
     "color": "#617582",
-    "image": "assets/ingredient-icons/armored-carp.svg"
+    "image": "assets/ingredient-icons/armored-carp.webp"
   },
   {
     "id": "armored-porgy",
@@ -60,7 +51,7 @@ const ingredients = [
     "tag": "defense",
     "icon": "AP",
     "color": "#617582",
-    "image": "assets/ingredient-icons/armored-porgy.svg"
+    "image": "assets/ingredient-icons/armored-porgy.webp"
   },
   {
     "id": "big-hearty-radish",
@@ -69,7 +60,7 @@ const ingredients = [
     "tag": "hearty",
     "icon": "BH",
     "color": "#c35b69",
-    "image": "assets/ingredient-icons/big-hearty-radish.svg"
+    "image": "assets/ingredient-icons/big-hearty-radish.webp"
   },
   {
     "id": "big-hearty-truffle",
@@ -78,7 +69,7 @@ const ingredients = [
     "tag": "hearty",
     "icon": "BH",
     "color": "#c35b69",
-    "image": "assets/ingredient-icons/big-hearty-truffle.svg"
+    "image": "assets/ingredient-icons/big-hearty-truffle.webp"
   },
   {
     "id": "bird-egg",
@@ -87,7 +78,7 @@ const ingredients = [
     "tag": "meat",
     "icon": "BE",
     "color": "#9c3f3e",
-    "image": "assets/ingredient-icons/bird-egg.svg"
+    "image": "assets/ingredient-icons/bird-egg.webp"
   },
   {
     "id": "bladed-rhino-beetle",
@@ -96,7 +87,7 @@ const ingredients = [
     "tag": "attack",
     "icon": "BR",
     "color": "#8c5eb0",
-    "image": "assets/ingredient-icons/bladed-rhino-beetle.svg"
+    "image": "assets/ingredient-icons/bladed-rhino-beetle.webp"
   },
   {
     "id": "blue-nightshade",
@@ -105,7 +96,7 @@ const ingredients = [
     "tag": "stealth",
     "icon": "BN",
     "color": "#4d7180",
-    "image": "assets/ingredient-icons/blue-nightshade.svg"
+    "image": "assets/ingredient-icons/blue-nightshade.webp"
   },
   {
     "id": "bright-eyed-crab",
@@ -114,7 +105,7 @@ const ingredients = [
     "tag": "stamina",
     "icon": "BC",
     "color": "#4f9a56",
-    "image": "assets/ingredient-icons/bright-eyed-crab.svg"
+    "image": "assets/ingredient-icons/bright-eyed-crab.webp"
   },
   {
     "id": "brightcap",
@@ -123,7 +114,7 @@ const ingredients = [
     "tag": "glow",
     "icon": "B",
     "color": "#d6bd52",
-    "image": "assets/ingredient-icons/brightcap.svg"
+    "image": "assets/ingredient-icons/brightcap.webp"
   },
   {
     "id": "cane-sugar",
@@ -132,7 +123,7 @@ const ingredients = [
     "tag": "cooking",
     "icon": "CS",
     "color": "#8b7b5f",
-    "image": "assets/ingredient-icons/cane-sugar.svg"
+    "image": "assets/ingredient-icons/cane-sugar.webp"
   },
   {
     "id": "cave-fish",
@@ -141,7 +132,7 @@ const ingredients = [
     "tag": "fish",
     "icon": "CF",
     "color": "#3f7894",
-    "image": "assets/ingredient-icons/cave-fish.svg"
+    "image": "assets/ingredient-icons/cave-fish.webp"
   },
   {
     "id": "chickaloo-tree-nut",
@@ -150,7 +141,7 @@ const ingredients = [
     "tag": "material",
     "icon": "CT",
     "color": "#72808a",
-    "image": "assets/ingredient-icons/chickaloo-tree-nut.svg"
+    "image": "assets/ingredient-icons/chickaloo-tree-nut.webp"
   },
   {
     "id": "chillfin-trout",
@@ -159,7 +150,7 @@ const ingredients = [
     "tag": "heat resist",
     "icon": "CT",
     "color": "#4f8fb1",
-    "image": "assets/ingredient-icons/chillfin-trout.svg"
+    "image": "assets/ingredient-icons/chillfin-trout.webp"
   },
   {
     "id": "chillshroom",
@@ -168,7 +159,7 @@ const ingredients = [
     "tag": "heat resist",
     "icon": "C",
     "color": "#4f8fb1",
-    "image": "assets/ingredient-icons/chillshroom.svg"
+    "image": "assets/ingredient-icons/chillshroom.webp"
   },
   {
     "id": "cold-darner",
@@ -177,7 +168,7 @@ const ingredients = [
     "tag": "critter",
     "icon": "CD",
     "color": "#6f6f48",
-    "image": "assets/ingredient-icons/cold-darner.svg"
+    "image": "assets/ingredient-icons/cold-darner.webp"
   },
   {
     "id": "cool-safflina",
@@ -186,7 +177,7 @@ const ingredients = [
     "tag": "heat resist",
     "icon": "CS",
     "color": "#4f8fb1",
-    "image": "assets/ingredient-icons/cool-safflina.svg"
+    "image": "assets/ingredient-icons/cool-safflina.webp"
   },
   {
     "id": "courser-bee-honey",
@@ -195,7 +186,7 @@ const ingredients = [
     "tag": "stamina",
     "icon": "CB",
     "color": "#4f9a56",
-    "image": "assets/ingredient-icons/courser-bee-honey.svg"
+    "image": "assets/ingredient-icons/courser-bee-honey.webp"
   },
   {
     "id": "dark-clump",
@@ -204,7 +195,7 @@ const ingredients = [
     "tag": "cooking",
     "icon": "DC",
     "color": "#8b7b5f",
-    "image": "assets/ingredient-icons/dark-clump.svg"
+    "image": "assets/ingredient-icons/dark-clump.webp"
   },
   {
     "id": "deep-firefly",
@@ -213,7 +204,7 @@ const ingredients = [
     "tag": "glow",
     "icon": "DF",
     "color": "#d6bd52",
-    "image": "assets/ingredient-icons/deep-firefly.svg"
+    "image": "assets/ingredient-icons/deep-firefly.webp"
   },
   {
     "id": "electric-darner",
@@ -222,7 +213,7 @@ const ingredients = [
     "tag": "shock resist",
     "icon": "ED",
     "color": "#b69b32",
-    "image": "assets/ingredient-icons/electric-darner.svg"
+    "image": "assets/ingredient-icons/electric-darner.webp"
   },
   {
     "id": "electric-safflina",
@@ -231,7 +222,7 @@ const ingredients = [
     "tag": "shock resist",
     "icon": "ES",
     "color": "#b69b32",
-    "image": "assets/ingredient-icons/electric-safflina.svg"
+    "image": "assets/ingredient-icons/electric-safflina.webp"
   },
   {
     "id": "endura-carrot",
@@ -240,7 +231,7 @@ const ingredients = [
     "tag": "stamina",
     "icon": "EC",
     "color": "#4f9a56",
-    "image": "assets/ingredient-icons/endura-carrot.svg"
+    "image": "assets/ingredient-icons/endura-carrot.webp"
   },
   {
     "id": "endura-shroom",
@@ -249,7 +240,7 @@ const ingredients = [
     "tag": "stamina",
     "icon": "ES",
     "color": "#4f9a56",
-    "image": "assets/ingredient-icons/endura-shroom.svg"
+    "image": "assets/ingredient-icons/endura-shroom.webp"
   },
   {
     "id": "energetic-rhino-beetle",
@@ -258,7 +249,7 @@ const ingredients = [
     "tag": "stamina",
     "icon": "ER",
     "color": "#4f9a56",
-    "image": "assets/ingredient-icons/energetic-rhino-beetle.svg"
+    "image": "assets/ingredient-icons/energetic-rhino-beetle.webp"
   },
   {
     "id": "fairy",
@@ -267,7 +258,7 @@ const ingredients = [
     "tag": "hearty",
     "icon": "F",
     "color": "#c35b69",
-    "image": "assets/ingredient-icons/fairy.svg"
+    "image": "assets/ingredient-icons/fairy.webp"
   },
   {
     "id": "fireproof-lizard",
@@ -276,7 +267,7 @@ const ingredients = [
     "tag": "fireproof",
     "icon": "FL",
     "color": "#bd573b",
-    "image": "assets/ingredient-icons/fireproof-lizard.svg"
+    "image": "assets/ingredient-icons/fireproof-lizard.webp"
   },
   {
     "id": "fleet-lotus-seeds",
@@ -285,7 +276,7 @@ const ingredients = [
     "tag": "speed",
     "icon": "FS",
     "color": "#d28539",
-    "image": "assets/ingredient-icons/fleet-lotus-seeds.svg"
+    "image": "assets/ingredient-icons/fleet-lotus-seeds.webp"
   },
   {
     "id": "fortified-pumpkin",
@@ -294,7 +285,7 @@ const ingredients = [
     "tag": "plant",
     "icon": "FP",
     "color": "#4f8b52",
-    "image": "assets/ingredient-icons/fortified-pumpkin.svg"
+    "image": "assets/ingredient-icons/fortified-pumpkin.webp"
   },
   {
     "id": "fresh-milk",
@@ -303,7 +294,7 @@ const ingredients = [
     "tag": "cooking",
     "icon": "FM",
     "color": "#8b7b5f",
-    "image": "assets/ingredient-icons/fresh-milk.svg"
+    "image": "assets/ingredient-icons/fresh-milk.webp"
   },
   {
     "id": "gemstone",
@@ -312,7 +303,7 @@ const ingredients = [
     "tag": "material",
     "icon": "G",
     "color": "#72808a",
-    "image": "assets/ingredient-icons/gemstone.svg"
+    "image": "assets/ingredient-icons/gemstone.webp"
   },
   {
     "id": "glowing-cave-fish",
@@ -321,7 +312,7 @@ const ingredients = [
     "tag": "glow",
     "icon": "GC",
     "color": "#d6bd52",
-    "image": "assets/ingredient-icons/glowing-cave-fish.svg"
+    "image": "assets/ingredient-icons/glowing-cave-fish.webp"
   },
   {
     "id": "goat-butter",
@@ -330,7 +321,7 @@ const ingredients = [
     "tag": "cooking",
     "icon": "GB",
     "color": "#8b7b5f",
-    "image": "assets/ingredient-icons/goat-butter.svg"
+    "image": "assets/ingredient-icons/goat-butter.webp"
   },
   {
     "id": "golden-apple",
@@ -339,7 +330,7 @@ const ingredients = [
     "tag": "fruit",
     "icon": "GA",
     "color": "#b94d45",
-    "image": "assets/ingredient-icons/golden-apple.svg"
+    "image": "assets/ingredient-icons/golden-apple.webp"
   },
   {
     "id": "goron-spice",
@@ -348,7 +339,7 @@ const ingredients = [
     "tag": "cooking",
     "icon": "GS",
     "color": "#8b7b5f",
-    "image": "assets/ingredient-icons/goron-spice.svg"
+    "image": "assets/ingredient-icons/goron-spice.webp"
   },
   {
     "id": "hateno-cheese",
@@ -357,7 +348,7 @@ const ingredients = [
     "tag": "cooking",
     "icon": "HC",
     "color": "#8b7b5f",
-    "image": "assets/ingredient-icons/hateno-cheese.svg"
+    "image": "assets/ingredient-icons/hateno-cheese.webp"
   },
   {
     "id": "hearty-bass",
@@ -366,7 +357,7 @@ const ingredients = [
     "tag": "hearty",
     "icon": "HB",
     "color": "#c35b69",
-    "image": "assets/ingredient-icons/hearty-bass.svg"
+    "image": "assets/ingredient-icons/hearty-bass.webp"
   },
   {
     "id": "hearty-blueshell-snail",
@@ -375,7 +366,7 @@ const ingredients = [
     "tag": "hearty",
     "icon": "HB",
     "color": "#c35b69",
-    "image": "assets/ingredient-icons/hearty-blueshell-snail.svg"
+    "image": "assets/ingredient-icons/hearty-blueshell-snail.webp"
   },
   {
     "id": "hearty-durian",
@@ -384,7 +375,7 @@ const ingredients = [
     "tag": "hearty",
     "icon": "HD",
     "color": "#c35b69",
-    "image": "assets/ingredient-icons/hearty-durian.svg"
+    "image": "assets/ingredient-icons/hearty-durian.webp"
   },
   {
     "id": "hearty-lizard",
@@ -393,7 +384,7 @@ const ingredients = [
     "tag": "hearty",
     "icon": "HL",
     "color": "#c35b69",
-    "image": "assets/ingredient-icons/hearty-lizard.svg"
+    "image": "assets/ingredient-icons/hearty-lizard.webp"
   },
   {
     "id": "hearty-radish",
@@ -402,7 +393,7 @@ const ingredients = [
     "tag": "hearty",
     "icon": "HR",
     "color": "#c35b69",
-    "image": "assets/ingredient-icons/hearty-radish.svg"
+    "image": "assets/ingredient-icons/hearty-radish.webp"
   },
   {
     "id": "hearty-salmon",
@@ -411,7 +402,7 @@ const ingredients = [
     "tag": "hearty",
     "icon": "HS",
     "color": "#c35b69",
-    "image": "assets/ingredient-icons/hearty-salmon.svg"
+    "image": "assets/ingredient-icons/hearty-salmon.webp"
   },
   {
     "id": "hearty-truffle",
@@ -420,7 +411,7 @@ const ingredients = [
     "tag": "hearty",
     "icon": "HT",
     "color": "#c35b69",
-    "image": "assets/ingredient-icons/hearty-truffle.svg"
+    "image": "assets/ingredient-icons/hearty-truffle.webp"
   },
   {
     "id": "hightail-lizard",
@@ -429,7 +420,7 @@ const ingredients = [
     "tag": "speed",
     "icon": "HL",
     "color": "#d28539",
-    "image": "assets/ingredient-icons/hightail-lizard.svg"
+    "image": "assets/ingredient-icons/hightail-lizard.webp"
   },
   {
     "id": "hot-footed-frog",
@@ -438,7 +429,7 @@ const ingredients = [
     "tag": "speed",
     "icon": "HF",
     "color": "#d28539",
-    "image": "assets/ingredient-icons/hot-footed-frog.svg"
+    "image": "assets/ingredient-icons/hot-footed-frog.webp"
   },
   {
     "id": "hydromelon",
@@ -447,7 +438,7 @@ const ingredients = [
     "tag": "heat resist",
     "icon": "H",
     "color": "#4f8fb1",
-    "image": "assets/ingredient-icons/hydromelon.svg"
+    "image": "assets/ingredient-icons/hydromelon.webp"
   },
   {
     "id": "hylian-rice",
@@ -456,7 +447,7 @@ const ingredients = [
     "tag": "cooking",
     "icon": "HR",
     "color": "#8b7b5f",
-    "image": "assets/ingredient-icons/hylian-rice.svg"
+    "image": "assets/ingredient-icons/hylian-rice.webp"
   },
   {
     "id": "hylian-shroom",
@@ -465,7 +456,7 @@ const ingredients = [
     "tag": "mushroom",
     "icon": "HS",
     "color": "#9b6b3d",
-    "image": "assets/ingredient-icons/hylian-shroom.svg"
+    "image": "assets/ingredient-icons/hylian-shroom.webp"
   },
   {
     "id": "hylian-tomato",
@@ -474,7 +465,7 @@ const ingredients = [
     "tag": "fruit",
     "icon": "HT",
     "color": "#b94d45",
-    "image": "assets/ingredient-icons/hylian-tomato.svg"
+    "image": "assets/ingredient-icons/hylian-tomato.webp"
   },
   {
     "id": "hyrule-bass",
@@ -483,7 +474,7 @@ const ingredients = [
     "tag": "fish",
     "icon": "HB",
     "color": "#3f7894",
-    "image": "assets/ingredient-icons/hyrule-bass.svg"
+    "image": "assets/ingredient-icons/hyrule-bass.webp"
   },
   {
     "id": "hyrule-herb",
@@ -492,7 +483,7 @@ const ingredients = [
     "tag": "plant",
     "icon": "HH",
     "color": "#4f8b52",
-    "image": "assets/ingredient-icons/hyrule-herb.svg"
+    "image": "assets/ingredient-icons/hyrule-herb.webp"
   },
   {
     "id": "ironshell-crab",
@@ -501,7 +492,7 @@ const ingredients = [
     "tag": "defense",
     "icon": "IC",
     "color": "#617582",
-    "image": "assets/ingredient-icons/ironshell-crab.svg"
+    "image": "assets/ingredient-icons/ironshell-crab.webp"
   },
   {
     "id": "ironshroom",
@@ -510,7 +501,7 @@ const ingredients = [
     "tag": "defense",
     "icon": "I",
     "color": "#617582",
-    "image": "assets/ingredient-icons/ironshroom.svg"
+    "image": "assets/ingredient-icons/ironshroom.webp"
   },
   {
     "id": "mighty-bananas",
@@ -519,7 +510,7 @@ const ingredients = [
     "tag": "attack",
     "icon": "MB",
     "color": "#8c5eb0",
-    "image": "assets/ingredient-icons/mighty-bananas.svg"
+    "image": "assets/ingredient-icons/mighty-bananas.webp"
   },
   {
     "id": "mighty-carp",
@@ -528,7 +519,7 @@ const ingredients = [
     "tag": "attack",
     "icon": "MC",
     "color": "#8c5eb0",
-    "image": "assets/ingredient-icons/mighty-carp.svg"
+    "image": "assets/ingredient-icons/mighty-carp.webp"
   },
   {
     "id": "mighty-porgy",
@@ -537,7 +528,7 @@ const ingredients = [
     "tag": "attack",
     "icon": "MP",
     "color": "#8c5eb0",
-    "image": "assets/ingredient-icons/mighty-porgy.svg"
+    "image": "assets/ingredient-icons/mighty-porgy.webp"
   },
   {
     "id": "mighty-thistle",
@@ -546,7 +537,7 @@ const ingredients = [
     "tag": "attack",
     "icon": "MT",
     "color": "#8c5eb0",
-    "image": "assets/ingredient-icons/mighty-thistle.svg"
+    "image": "assets/ingredient-icons/mighty-thistle.webp"
   },
   {
     "id": "monster-extract",
@@ -555,7 +546,7 @@ const ingredients = [
     "tag": "cooking",
     "icon": "ME",
     "color": "#8b7b5f",
-    "image": "assets/ingredient-icons/monster-extract.svg"
+    "image": "assets/ingredient-icons/monster-extract.webp"
   },
   {
     "id": "monster-part",
@@ -564,7 +555,7 @@ const ingredients = [
     "tag": "material",
     "icon": "MP",
     "color": "#72808a",
-    "image": "assets/ingredient-icons/monster-part.svg"
+    "image": "assets/ingredient-icons/monster-part.webp"
   },
   {
     "id": "oil-jar",
@@ -573,7 +564,7 @@ const ingredients = [
     "tag": "cooking",
     "icon": "OJ",
     "color": "#8b7b5f",
-    "image": "assets/ingredient-icons/oil-jar.svg"
+    "image": "assets/ingredient-icons/oil-jar.webp"
   },
   {
     "id": "palm-fruit",
@@ -582,16 +573,7 @@ const ingredients = [
     "tag": "fruit",
     "icon": "PF",
     "color": "#b94d45",
-    "image": "assets/ingredient-icons/palm-fruit.svg"
-  },
-  {
-    "id": "prime-meat-or-bird-thigh",
-    "name": "Prime Meat or Bird Thigh",
-    "type": "food",
-    "tag": "meat",
-    "icon": "PM",
-    "color": "#9c3f3e",
-    "image": "assets/ingredient-icons/prime-meat-or-bird-thigh.svg"
+    "image": "assets/ingredient-icons/palm-fruit.webp"
   },
   {
     "id": "raw-bird-drumstick",
@@ -600,7 +582,7 @@ const ingredients = [
     "tag": "meat",
     "icon": "RB",
     "color": "#9c3f3e",
-    "image": "assets/ingredient-icons/raw-bird-drumstick.svg"
+    "image": "assets/ingredient-icons/raw-bird-drumstick.webp"
   },
   {
     "id": "raw-bird-thigh",
@@ -609,7 +591,7 @@ const ingredients = [
     "tag": "meat",
     "icon": "RB",
     "color": "#9c3f3e",
-    "image": "assets/ingredient-icons/raw-bird-thigh.svg"
+    "image": "assets/ingredient-icons/raw-bird-thigh.webp"
   },
   {
     "id": "raw-gourmet-meat",
@@ -618,7 +600,7 @@ const ingredients = [
     "tag": "meat",
     "icon": "RG",
     "color": "#9c3f3e",
-    "image": "assets/ingredient-icons/raw-gourmet-meat.svg"
+    "image": "assets/ingredient-icons/raw-gourmet-meat.webp"
   },
   {
     "id": "raw-meat",
@@ -627,7 +609,7 @@ const ingredients = [
     "tag": "meat",
     "icon": "RM",
     "color": "#9c3f3e",
-    "image": "assets/ingredient-icons/raw-meat.svg"
+    "image": "assets/ingredient-icons/raw-meat.webp"
   },
   {
     "id": "raw-prime-meat",
@@ -636,7 +618,7 @@ const ingredients = [
     "tag": "meat",
     "icon": "RP",
     "color": "#9c3f3e",
-    "image": "assets/ingredient-icons/raw-prime-meat.svg"
+    "image": "assets/ingredient-icons/raw-prime-meat.webp"
   },
   {
     "id": "raw-whole-bird",
@@ -645,7 +627,7 @@ const ingredients = [
     "tag": "meat",
     "icon": "RW",
     "color": "#9c3f3e",
-    "image": "assets/ingredient-icons/raw-whole-bird.svg"
+    "image": "assets/ingredient-icons/raw-whole-bird.webp"
   },
   {
     "id": "razorclaw-crab",
@@ -654,7 +636,7 @@ const ingredients = [
     "tag": "attack",
     "icon": "RC",
     "color": "#8c5eb0",
-    "image": "assets/ingredient-icons/razorclaw-crab.svg"
+    "image": "assets/ingredient-icons/razorclaw-crab.webp"
   },
   {
     "id": "razorshroom",
@@ -663,7 +645,7 @@ const ingredients = [
     "tag": "attack",
     "icon": "R",
     "color": "#8c5eb0",
-    "image": "assets/ingredient-icons/razorshroom.svg"
+    "image": "assets/ingredient-icons/razorshroom.webp"
   },
   {
     "id": "restless-cricket",
@@ -672,7 +654,7 @@ const ingredients = [
     "tag": "stamina",
     "icon": "RC",
     "color": "#4f9a56",
-    "image": "assets/ingredient-icons/restless-cricket.svg"
+    "image": "assets/ingredient-icons/restless-cricket.webp"
   },
   {
     "id": "rock-salt",
@@ -681,7 +663,7 @@ const ingredients = [
     "tag": "cooking",
     "icon": "RS",
     "color": "#8b7b5f",
-    "image": "assets/ingredient-icons/rock-salt.svg"
+    "image": "assets/ingredient-icons/rock-salt.webp"
   },
   {
     "id": "rugged-rhino-beetle",
@@ -690,7 +672,7 @@ const ingredients = [
     "tag": "defense",
     "icon": "RR",
     "color": "#617582",
-    "image": "assets/ingredient-icons/rugged-rhino-beetle.svg"
+    "image": "assets/ingredient-icons/rugged-rhino-beetle.webp"
   },
   {
     "id": "rushroom",
@@ -699,7 +681,7 @@ const ingredients = [
     "tag": "speed",
     "icon": "R",
     "color": "#d28539",
-    "image": "assets/ingredient-icons/rushroom.svg"
+    "image": "assets/ingredient-icons/rushroom.webp"
   },
   {
     "id": "sanke-carp",
@@ -708,7 +690,7 @@ const ingredients = [
     "tag": "fish",
     "icon": "SC",
     "color": "#3f7894",
-    "image": "assets/ingredient-icons/sanke-carp.svg"
+    "image": "assets/ingredient-icons/sanke-carp.webp"
   },
   {
     "id": "silent-shroom",
@@ -717,7 +699,7 @@ const ingredients = [
     "tag": "stealth",
     "icon": "SS",
     "color": "#4d7180",
-    "image": "assets/ingredient-icons/silent-shroom.svg"
+    "image": "assets/ingredient-icons/silent-shroom.webp"
   },
   {
     "id": "sizzlefin-trout",
@@ -726,7 +708,7 @@ const ingredients = [
     "tag": "cold resist",
     "icon": "ST",
     "color": "#c8663d",
-    "image": "assets/ingredient-icons/sizzlefin-trout.svg"
+    "image": "assets/ingredient-icons/sizzlefin-trout.webp"
   },
   {
     "id": "skyshroom",
@@ -735,7 +717,7 @@ const ingredients = [
     "tag": "mushroom",
     "icon": "S",
     "color": "#9b6b3d",
-    "image": "assets/ingredient-icons/skyshroom.svg"
+    "image": "assets/ingredient-icons/skyshroom.webp"
   },
   {
     "id": "smotherwing-butterfly",
@@ -744,7 +726,7 @@ const ingredients = [
     "tag": "fireproof",
     "icon": "SB",
     "color": "#bd573b",
-    "image": "assets/ingredient-icons/smotherwing-butterfly.svg"
+    "image": "assets/ingredient-icons/smotherwing-butterfly.webp"
   },
   {
     "id": "sneaky-river-snail",
@@ -753,7 +735,7 @@ const ingredients = [
     "tag": "stealth",
     "icon": "SR",
     "color": "#4d7180",
-    "image": "assets/ingredient-icons/sneaky-river-snail.svg"
+    "image": "assets/ingredient-icons/sneaky-river-snail.webp"
   },
   {
     "id": "spicy-pepper",
@@ -762,7 +744,7 @@ const ingredients = [
     "tag": "cold resist",
     "icon": "SP",
     "color": "#c8663d",
-    "image": "assets/ingredient-icons/spicy-pepper.svg"
+    "image": "assets/ingredient-icons/spicy-pepper.webp"
   },
   {
     "id": "stambulb",
@@ -771,7 +753,7 @@ const ingredients = [
     "tag": "plant",
     "icon": "S",
     "color": "#4f8b52",
-    "image": "assets/ingredient-icons/stambulb.svg"
+    "image": "assets/ingredient-icons/stambulb.webp"
   },
   {
     "id": "stamella-shroom",
@@ -780,7 +762,7 @@ const ingredients = [
     "tag": "stamina",
     "icon": "SS",
     "color": "#4f9a56",
-    "image": "assets/ingredient-icons/stamella-shroom.svg"
+    "image": "assets/ingredient-icons/stamella-shroom.webp"
   },
   {
     "id": "staminoka-bass",
@@ -789,7 +771,7 @@ const ingredients = [
     "tag": "stamina",
     "icon": "SB",
     "color": "#4f9a56",
-    "image": "assets/ingredient-icons/staminoka-bass.svg"
+    "image": "assets/ingredient-icons/staminoka-bass.webp"
   },
   {
     "id": "stealthfin-trout",
@@ -798,7 +780,7 @@ const ingredients = [
     "tag": "stealth",
     "icon": "ST",
     "color": "#4d7180",
-    "image": "assets/ingredient-icons/stealthfin-trout.svg"
+    "image": "assets/ingredient-icons/stealthfin-trout.webp"
   },
   {
     "id": "sticky-frog",
@@ -807,7 +789,7 @@ const ingredients = [
     "tag": "sticky",
     "icon": "SF",
     "color": "#5f8a61",
-    "image": "assets/ingredient-icons/sticky-frog.svg"
+    "image": "assets/ingredient-icons/sticky-frog.webp"
   },
   {
     "id": "sticky-lizard",
@@ -816,7 +798,7 @@ const ingredients = [
     "tag": "sticky",
     "icon": "SL",
     "color": "#5f8a61",
-    "image": "assets/ingredient-icons/sticky-lizard.svg"
+    "image": "assets/ingredient-icons/sticky-lizard.webp"
   },
   {
     "id": "summerwing-butterfly",
@@ -825,7 +807,7 @@ const ingredients = [
     "tag": "cold resist",
     "icon": "SB",
     "color": "#c8663d",
-    "image": "assets/ingredient-icons/summerwing-butterfly.svg"
+    "image": "assets/ingredient-icons/summerwing-butterfly.webp"
   },
   {
     "id": "sun-pumpkin",
@@ -834,7 +816,7 @@ const ingredients = [
     "tag": "sunny",
     "icon": "SP",
     "color": "#d8a241",
-    "image": "assets/ingredient-icons/sun-pumpkin.svg"
+    "image": "assets/ingredient-icons/sun-pumpkin.webp"
   },
   {
     "id": "sunset-firefly",
@@ -843,7 +825,7 @@ const ingredients = [
     "tag": "stealth",
     "icon": "SF",
     "color": "#4d7180",
-    "image": "assets/ingredient-icons/sunset-firefly.svg"
+    "image": "assets/ingredient-icons/sunset-firefly.webp"
   },
   {
     "id": "sunshroom",
@@ -852,7 +834,7 @@ const ingredients = [
     "tag": "cold resist",
     "icon": "S",
     "color": "#c8663d",
-    "image": "assets/ingredient-icons/sunshroom.svg"
+    "image": "assets/ingredient-icons/sunshroom.webp"
   },
   {
     "id": "swift-carrot",
@@ -861,7 +843,7 @@ const ingredients = [
     "tag": "speed",
     "icon": "SC",
     "color": "#d28539",
-    "image": "assets/ingredient-icons/swift-carrot.svg"
+    "image": "assets/ingredient-icons/swift-carrot.webp"
   },
   {
     "id": "swift-violet",
@@ -870,7 +852,7 @@ const ingredients = [
     "tag": "speed",
     "icon": "SV",
     "color": "#d28539",
-    "image": "assets/ingredient-icons/swift-violet.svg"
+    "image": "assets/ingredient-icons/swift-violet.webp"
   },
   {
     "id": "tabantha-wheat",
@@ -879,7 +861,7 @@ const ingredients = [
     "tag": "cooking",
     "icon": "TW",
     "color": "#8b7b5f",
-    "image": "assets/ingredient-icons/tabantha-wheat.svg"
+    "image": "assets/ingredient-icons/tabantha-wheat.webp"
   },
   {
     "id": "thunderwing-butterfly",
@@ -888,16 +870,16 @@ const ingredients = [
     "tag": "shock resist",
     "icon": "TB",
     "color": "#b69b32",
-    "image": "assets/ingredient-icons/thunderwing-butterfly.svg"
+    "image": "assets/ingredient-icons/thunderwing-butterfly.webp"
   },
   {
-    "id": "timeless-frog",
-    "name": "Timeless Frog",
+    "id": "tireless-frog",
+    "name": "Tireless Frog",
     "type": "cooking",
     "tag": "critter",
     "icon": "TF",
     "color": "#6f6f48",
-    "image": "assets/ingredient-icons/timeless-frog.svg"
+    "image": "assets/ingredient-icons/tireless-frog.webp"
   },
   {
     "id": "voltfin-trout",
@@ -906,7 +888,7 @@ const ingredients = [
     "tag": "shock resist",
     "icon": "VT",
     "color": "#b69b32",
-    "image": "assets/ingredient-icons/voltfin-trout.svg"
+    "image": "assets/ingredient-icons/voltfin-trout.webp"
   },
   {
     "id": "voltfruit",
@@ -915,7 +897,7 @@ const ingredients = [
     "tag": "shock resist",
     "icon": "V",
     "color": "#b69b32",
-    "image": "assets/ingredient-icons/voltfruit.svg"
+    "image": "assets/ingredient-icons/voltfruit.webp"
   },
   {
     "id": "warm-darner",
@@ -924,7 +906,7 @@ const ingredients = [
     "tag": "cold resist",
     "icon": "WD",
     "color": "#c8663d",
-    "image": "assets/ingredient-icons/warm-darner.svg"
+    "image": "assets/ingredient-icons/warm-darner.webp"
   },
   {
     "id": "warm-safflina",
@@ -933,7 +915,7 @@ const ingredients = [
     "tag": "cold resist",
     "icon": "WS",
     "color": "#c8663d",
-    "image": "assets/ingredient-icons/warm-safflina.svg"
+    "image": "assets/ingredient-icons/warm-safflina.webp"
   },
   {
     "id": "wildberry",
@@ -942,7 +924,7 @@ const ingredients = [
     "tag": "fruit",
     "icon": "W",
     "color": "#b94d45",
-    "image": "assets/ingredient-icons/wildberry.svg"
+    "image": "assets/ingredient-icons/wildberry.webp"
   },
   {
     "id": "winterwing-butterfly",
@@ -951,7 +933,7 @@ const ingredients = [
     "tag": "heat resist",
     "icon": "WB",
     "color": "#4f8fb1",
-    "image": "assets/ingredient-icons/winterwing-butterfly.svg"
+    "image": "assets/ingredient-icons/winterwing-butterfly.webp"
   },
   {
     "id": "wood",
@@ -960,7 +942,7 @@ const ingredients = [
     "tag": "material",
     "icon": "W",
     "color": "#72808a",
-    "image": "assets/ingredient-icons/wood.svg"
+    "image": "assets/ingredient-icons/wood.webp"
   },
   {
     "id": "zapshroom",
@@ -969,7 +951,7 @@ const ingredients = [
     "tag": "shock resist",
     "icon": "Z",
     "color": "#b69b32",
-    "image": "assets/ingredient-icons/zapshroom.svg"
+    "image": "assets/ingredient-icons/zapshroom.webp"
   }
 ];
 
@@ -1985,7 +1967,7 @@ const recipeCatalog = [
     "foodEffect": "Health recovery and other effects vary based on the ingredients",
     "score": 30,
     "description": "Health recovery and other effects vary based on the ingredients",
-    "image": "assets/recipe-icons/crab-risotto-83.svg"
+    "image": "assets/recipe-icons/crab-risotto-83.png"
   },
   {
     "name": "Crab Stir-Fry",
@@ -2438,7 +2420,6 @@ const recipeCatalog = [
         "ids": [
           "acorn",
           "ancient-arowana",
-          "any-porgy",
           "apple",
           "armoranth",
           "armored-carp",
@@ -2501,7 +2482,6 @@ const recipeCatalog = [
           "monster-part",
           "oil-jar",
           "palm-fruit",
-          "prime-meat-or-bird-thigh",
           "raw-bird-drumstick",
           "raw-bird-thigh",
           "raw-gourmet-meat",
@@ -2535,7 +2515,7 @@ const recipeCatalog = [
           "swift-violet",
           "tabantha-wheat",
           "thunderwing-butterfly",
-          "timeless-frog",
+          "tireless-frog",
           "voltfin-trout",
           "voltfruit",
           "warm-darner",
@@ -2965,7 +2945,7 @@ const recipeCatalog = [
     "foodEffect": "2 heart(s) recovered Heat resistance",
     "score": 46,
     "description": "2 heart(s) recovered Heat resistance",
-    "image": "assets/recipe-icons/frozen-hearty-bass-211.svg"
+    "image": "assets/recipe-icons/frozen-hearty-bass-211.png"
   },
   {
     "name": "Frozen Hearty Salmon",
@@ -2985,7 +2965,7 @@ const recipeCatalog = [
     "number": "209",
     "ingredients": [
       {
-        "label": "Any Porgy",
+        "label": "Mighty or Armored Porgy",
         "ids": [
           "mighty-porgy",
           "armored-porgy"
@@ -3381,7 +3361,7 @@ const recipeCatalog = [
     "foodEffect": "9 heart(s) recovered",
     "score": 72,
     "description": "9 heart(s) recovered",
-    "image": "assets/recipe-icons/gourmet-meat-stew-78.svg"
+    "image": "assets/recipe-icons/gourmet-meat-stew-78.png"
   },
   {
     "name": "Gourmet Poultry Curry",
@@ -4677,7 +4657,7 @@ const recipeCatalog = [
     "number": "189",
     "ingredients": [
       {
-        "label": "Any Porgy",
+        "label": "Mighty or Armored Porgy",
         "ids": [
           "mighty-porgy",
           "armored-porgy"
@@ -5038,7 +5018,7 @@ const recipeCatalog = [
     "number": "72",
     "ingredients": [
       {
-        "label": "Any Porgy",
+        "label": "Mighty or Armored Porgy",
         "ids": [
           "mighty-porgy",
           "armored-porgy"
@@ -5059,7 +5039,7 @@ const recipeCatalog = [
     "number": "92",
     "ingredients": [
       {
-        "label": "Any Porgy",
+        "label": "Mighty or Armored Porgy",
         "ids": [
           "mighty-porgy",
           "armored-porgy"
@@ -5081,7 +5061,7 @@ const recipeCatalog = [
     "ingredients": [
       "hearty-salmon",
       {
-        "label": "Any Porgy",
+        "label": "Mighty or Armored Porgy",
         "ids": [
           "mighty-porgy",
           "armored-porgy"
@@ -5672,7 +5652,7 @@ const recipeCatalog = [
     "foodEffect": "0.75 heart(s) recovered Stamina recovery",
     "score": 36,
     "description": "0.75 heart(s) recovered Stamina recovery",
-    "image": "assets/recipe-icons/toasty-stamella-shroom-167.svg"
+    "image": "assets/recipe-icons/toasty-stamella-shroom-167.png"
   },
   {
     "name": "Toasty Sunshroom",
@@ -6053,7 +6033,7 @@ const recipeCatalog = [
     "name": "Enduring Elixir",
     "number": "226",
     "ingredients": [
-      "timeless-frog",
+      "tireless-frog",
       {
         "label": "Any Monster Part",
         "ids": [
@@ -6265,7 +6245,8 @@ const state = {
   owned: new Set(JSON.parse(localStorage.getItem("totk-owned") || "[]")),
   category: "all",
   query: "",
-  sort: "best"
+  sort: "best",
+  theme: localStorage.getItem("totk-theme") || "light"
 };
 
 const ingredientById = new Map(ingredients.map((item) => [item.id, item]));
@@ -6273,6 +6254,9 @@ const ingredientGrid = document.querySelector("#ingredientGrid");
 const recipeList = document.querySelector("#recipeList");
 const ingredientTemplate = document.querySelector("#ingredientTemplate");
 const recipeTemplate = document.querySelector("#recipeTemplate");
+const themeToggle = document.querySelector("#themeToggle");
+
+applyTheme();
 
 document.querySelector("#ingredientSearch").addEventListener("input", (event) => {
   state.query = event.target.value.trim().toLowerCase();
@@ -6298,8 +6282,20 @@ document.querySelector("#clearInventory").addEventListener("click", () => {
   renderAll();
 });
 
+themeToggle.addEventListener("click", () => {
+  state.theme = state.theme === "dark" ? "light" : "dark";
+  localStorage.setItem("totk-theme", state.theme);
+  applyTheme();
+});
+
 function persist() {
   localStorage.setItem("totk-owned", JSON.stringify([...state.owned]));
+}
+
+function applyTheme() {
+  document.documentElement.dataset.theme = state.theme;
+  themeToggle.textContent = state.theme === "dark" ? "Light mode" : "Dark mode";
+  themeToggle.setAttribute("aria-pressed", String(state.theme === "dark"));
 }
 
 function renderIcon(container, item) {
