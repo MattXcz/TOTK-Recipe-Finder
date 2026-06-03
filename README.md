@@ -12,7 +12,7 @@ The current recipe catalog includes 230 Recipe Book rows covering 228 numbered T
 
 The app is available at:
 
-`https://matousbecvar.github.io/TOTK-Recipe-Finder/`
+`https://mattxcz.github.io/TOTK-Recipe-Finder/`
 
 The app is fully static, so GitHub Pages can serve it directly from `index.html`.
 
